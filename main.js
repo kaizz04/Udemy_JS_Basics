@@ -340,6 +340,26 @@ for(let s1 of set1){
 // console.log(set1.has("kaizz"));
 // console.log(set1.has("Kaizz"));
 
+let map1 = new Map();
+map1.set('kaveesh','Java');
+map1.set('manuja','JS');
+map1.set('saminda','C#');
+map1.set('kaveesh','Py')
+
+console.log(map1);
+console.log(map1.has('kaveesh'));
+console.log(map1.get('kaveesh'));
+
+for(let [k,v] of map1){
+    console.log(k, ":" ,v);
+
+}
+map1.forEach((v,k) => {
+    console.log(k, ":" ,v);
+});
+
+
+
 
 
 
