@@ -312,8 +312,20 @@ let array4 = [23,44,56,77,88];
 // });
 
 array4.forEach((b1,b2,b3) => {
-    console.log(b1,b2, b3);
+    // console.log(b1,b2, b3);
 });
+
+array5  = [1,2,3,4,5,6];
+let res4 = array5.filter( b1 => b1%2 === 0)
+.map(b1 => b1*2)
+.reduce((a,b)=>a+b)
+// .forEach(b1 => {
+//     console.log(b1);
+// });
+
+// console.log(res4);
+
+
 
 
 
