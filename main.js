@@ -305,6 +305,18 @@ let [A,B,,...D]=words;
 // console.log(A,B);
 // console.log(D);
 
+let array4 = [23,44,56,77,88];
+// array4.forEach(b1=>{
+//     console.log(b1);
+
+// });
+
+array4.forEach((b1,b2,b3) => {
+    console.log(b1,b2, b3);
+});
+
+
+
 
 
 
