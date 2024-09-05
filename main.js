@@ -282,16 +282,44 @@ array3[0]=8;
 array3[99]=10;
 
 for(let n of array3){
-    console.log(n);
+   // console.log(n);
 
 }
-console.log("break");
+//console.log("break");
 
 for (let key1 in array3){
-    console.log(key1);
-    console.log(array3[key1]);
+   // console.log(key1);
+  //  console.log(array3[key1]);
 
 }
+
+let nums = [2,4,5,6];
+// let [a,b,c,d]=nums;
+// console.log(a,d);
+let [a,b,,d]=nums;
+// console.log(d);
+
+let words = "My name is kaveesh manuja saminda kaizz".split(' ');
+// console.log(words);
+let [A,B,,...D]=words;
+// console.log(A,B);
+// console.log(D);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
