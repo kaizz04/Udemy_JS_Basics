@@ -325,6 +325,21 @@ let res4 = array5.filter( b1 => b1%2 === 0)
 
 // console.log(res4);
 
+let set1 = new Set();
+set1.add(1);
+set1.add(2);
+set1.add(1);
+set1.add("kaizz");
+set1.add("kavee");
+
+// console.log(set1);
+for(let s1 of set1){
+    console.log(s1);
+}
+
+// console.log(set1.has("kaizz"));
+// console.log(set1.has("Kaizz"));
+
 
 
 
